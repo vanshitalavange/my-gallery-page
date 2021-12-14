@@ -3,3 +3,40 @@ body{
     padding:0;
     box-sizing: border-box;
 }
+
+.page{
+    display:flex;
+    flex-direction: column;
+}
+
+.page__profile{
+    display:flex;
+    flex-direction: column;
+}
+
+.page__stats{
+
+   display: flex;
+   flex-direction: row;
+}
+
+.page__images{
+    display: flex;
+    flex-direction: column;
+}
+.row-container-one{
+    display: flex;
+    flex-direction:row;
+}
+.row-container-two{
+    display:flex;
+    flex-direction: row;
+}
+.sub-element-one{
+    display:flex;
+    flex-direction: column;
+}
+.photo5-photo6-container{
+    display: flex;
+    flex-direction: row;
+}
