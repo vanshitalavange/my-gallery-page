@@ -153,3 +153,115 @@ body{
         font-weight: 700;
         color: var(--gray-color);
       }
+
+@media (max-width:480px){
+    /** images size **/
+
+    .page{
+        gap:2vh;
+    
+    }
+.person__photo{
+   
+    width:25vw;
+}
+.photo1{
+    width:30vw;
+    height:15vh;
+    
+}
+.photo2{
+    width:61vw;
+    height:15vh;
+
+
+}
+.photo3{
+    width:61vw;
+    height:15vh;
+    
+}
+.photo6,.photo5{
+    width:29vw;
+    height:15vh;
+
+
+}
+.sub-element-two{
+    width:30vw;
+    height:31.5vh;
+}
+.person__name{
+
+    font-size:0.8rem;
+    line-height:1rem;
+
+
+}
+.person__posts,.person__followers,.person__following{
+  
+    width:15vw;
+ 
+    padding: 0.8rem 0.8rem;
+}
+.number{
+ 
+    font-size:0.75rem;
+    line-height:1rem;
+  
+    
+}
+.text{
+   
+    font-size:0.75rem;
+    line-height:1rem;
+    
+
+}
+.person__location{
+   
+    font-size:0.6rem;
+    line-height:0.75rem;
+}
+.page__stats{
+    gap:3vw;
+}
+.page__profile{
+    gap:1.1vh;
+}
+.page__images{
+    display: flex;
+    flex-direction: column;
+    gap:1.5vh;
+    margin-top: 1.5rem;
+}
+.row-container-one{
+    display: flex;
+    flex-direction:row;
+    gap:3vw;
+}
+.row-container-two{
+    display:flex;
+    flex-direction: row;
+    gap:3vw;
+}
+.sub-element-one{
+    display:flex;
+    flex-direction: column;
+    gap:1.5vh;
+}
+.photo5-photo6-container{
+    display: flex;
+    flex-direction: row;
+    gap:3vw;
+}
+.page__footer{
+    font-size:0.8rem;
+    line-height: 1rem;
+    margin-top:91vh; 
+    margin-bottom: 0.5rem;
+    position: fixed;
+}
+
+
+}
