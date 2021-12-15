@@ -17,36 +17,36 @@ body{
 /** images size **/
 .person__photo{
    
-    width:10vw;
+    width:13vw;
     border-radius: 1rem;
     align-self:center;
 }
 .photo1{
-    width:14vw;
-    height:30vh;
+    width:19vw;
+    height:40vh;
     border-radius: 12px;
 }
 .photo2{
-    width:29vw;
-    height:30vh;
+    width:37vw;
+    height:40vh;
     border-radius: 12px;
 
 }
 .photo3{
-    width:30vw;
-    height:30vh;
+    width:37vw;
+    height:40vh;
     border-radius: 12px;
 }
 .photo6,.photo5{
-    width:14.25vw;
-    height:30vh;
+    width:17.75vw;
+    height:40vh;
     border-radius: 12px;
-
+   
 }
 .sub-element-two{
-    width:13vw;
+    width:19vw;
     border-radius: 12px;
-    height:63vh;
+    height:83vh;
 }
 
 .page{
