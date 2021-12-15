@@ -258,9 +258,9 @@ body{
 .page__footer{
     font-size:0.8rem;
     line-height: 1rem;
-    margin-top:91vh; 
+     margin-top:91vh;  
     margin-bottom: 0.5rem;
-    position: fixed;
+    position: absolute;
 }
 
 
