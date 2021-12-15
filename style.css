@@ -1,265 +1,238 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-body{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-    --primary-color:#4E5150;
-    --secondary-color:#A9A9A9;
-   --tertiary-color:#BDBDBD;
-   --quaternary-color:#E5E5E5;
-   --gray-color:#B9BDCF;
-
-
+:root {
+  --primary-color: #4e5150;
+  --secondary-color: #a9a9a9;
+  --tertiary-color: #bdbdbd;
+  --quaternary-color: #e5e5e5;
+  --gray-color: #b9bdcf;
 }
 /** images size **/
-.person__photo{
-   
-    width:13vw;
-    border-radius: 1rem;
-    align-self:center;
+.person__photo {
+  width: 13vw;
+  border-radius: 1rem;
+  align-self: center;
 }
-.photo1{
-    width:19vw;
-    height:40vh;
-    border-radius: 12px;
+.photo1 {
+  width: 19vw;
+  height: 40vh;
+  border-radius: 12px;
 }
-.photo2{
-    width:37vw;
-    height:40vh;
-    border-radius: 12px;
-
+.photo2 {
+  width: 37vw;
+  height: 40vh;
+  border-radius: 12px;
 }
-.photo3{
-    width:37vw;
-    height:40vh;
-    border-radius: 12px;
+.photo3 {
+  width: 37vw;
+  height: 40vh;
+  border-radius: 12px;
 }
-.photo6,.photo5{
-    width:17.75vw;
-    height:40vh;
-    border-radius: 12px;
-   
+.photo6,
+.photo5 {
+  width: 17.75vw;
+  height: 40vh;
+  border-radius: 12px;
 }
-.sub-element-two{
-    width:19vw;
-    border-radius: 12px;
-    height:83vh;
+.sub-element-two {
+  width: 19vw;
+  border-radius: 12px;
+  height: 83vh;
 }
 
-.page{
-    margin-top:2rem;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap:2.5vh;
+.page {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5vh;
 }
 
-.page__profile{
-    display:flex;
-    flex-direction: column;
-    gap:2vh;
+.page__profile {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
 }
-.person__name{
-    font-family: Montserrat;
-    font-weight:600;
-    font-size:1.5rem;
-    line-height:1.8rem;
-    color:var(--primary-color);
-    align-self: center;
-
+.person__name {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: var(--primary-color);
+  align-self: center;
 }
-.person__posts,.person__followers,.person__following{
-    background-color: var(--quaternary-color);
-    text-align: center;
-    width:5vw;
-    border-radius: 12px;
-    padding: 0.8rem 0.8rem;
+.person__posts,
+.person__followers,
+.person__following {
+  background-color: var(--quaternary-color);
+  text-align: center;
+  width: 5vw;
+  border-radius: 12px;
+  padding: 0.8rem 0.8rem;
 }
-.number{
-    font-family: Montserrat;
-    font-weight:600;
-    font-size:1.1rem;
-    line-height:1.3rem;
-    color:var(--primary-color);
-    
+.number {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: var(--primary-color);
 }
-.text{
-    font-family: Montserrat;
-    font-weight:600;
-    font-size:0.8rem;
-    line-height:1rem;
-    color:var(--tertiary-color);
-
+.text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--tertiary-color);
 }
-.person__location{
-    font-family: Montserrat;
-    font-weight:600;
-    font-size:0.8rem;
-    line-height:1rem;
-    color:var(--secondary-color);
-    align-self: center;
-
-
+.person__location {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--secondary-color);
+  align-self: center;
 }
 
-.page__stats{
-
-   display: flex;
-   flex-direction: row;
-   gap:1.5vw;
+.page__stats {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
 }
 
-.page__images{
-    display: flex;
-    flex-direction: column;
-    gap:3vh;
-    margin-top: 1.5rem;
+.page__images {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-top: 1.5rem;
 }
-.row-container-one{
-    display: flex;
-    flex-direction:row;
-    gap:1.5vw;
+.row-container-one {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
 }
-.row-container-two{
-    display:flex;
-    flex-direction: row;
-    gap:1.5vw;
+.row-container-two {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
 }
-.sub-element-one{
-    display:flex;
-    flex-direction: column;
-    gap:3vh;
+.sub-element-one {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
 }
-.photo5-photo6-container{
-    display: flex;
-    flex-direction: row;
-    gap:1.5vw;
+.photo5-photo6-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
 }
-    .page__footer {
-        text-align: center;
-        color: var(--gray-color);
-        font-family: Montserrat;
-        font-weight: 500;
-        font-size: 1rem;
-        line-height: 1rem;
-        margin-top:4rem;
-        margin-bottom: 1rem;
-      }
-      
-      .page__footer a {
-        font-weight: 700;
-        color: var(--gray-color);
-      }
+.page__footer {
+  text-align: center;
+  color: var(--gray-color);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
 
-@media (max-width:480px){
-    /** images size **/
+.page__footer a {
+  font-weight: 700;
+  color: var(--gray-color);
+}
 
-    .page{
-        gap:2vh;
-    
-    }
-.person__photo{
-   
-    width:25vw;
-}
-.photo1{
-    width:30vw;
-    height:15vh;
-    
-}
-.photo2{
-    width:61vw;
-    height:15vh;
+@media (max-width: 480px) {
+  /** images size **/
 
-
-}
-.photo3{
-    width:61vw;
-    height:15vh;
-    
-}
-.photo6,.photo5{
-    width:29vw;
-    height:15vh;
-
-
-}
-.sub-element-two{
-    width:30vw;
-    height:31.5vh;
-}
-.person__name{
-
-    font-size:0.8rem;
-    line-height:1rem;
-
-
-}
-.person__posts,.person__followers,.person__following{
-  
-    width:15vw;
- 
-    padding: 0.8rem 0.8rem;
-}
-.number{
- 
-    font-size:0.75rem;
-    line-height:1rem;
-  
-    
-}
-.text{
-   
-    font-size:0.75rem;
-    line-height:1rem;
-    
-
-}
-.person__location{
-   
-    font-size:0.6rem;
-    line-height:0.75rem;
-}
-.page__stats{
-    gap:3vw;
-}
-.page__profile{
-    gap:1.1vh;
-}
-.page__images{
-    display: flex;
-    flex-direction: column;
-    gap:1.5vh;
-    margin-top: 1.5rem;
-}
-.row-container-one{
-    display: flex;
-    flex-direction:row;
-    gap:3vw;
-}
-.row-container-two{
-    display:flex;
-    flex-direction: row;
-    gap:3vw;
-}
-.sub-element-one{
-    display:flex;
-    flex-direction: column;
-    gap:1.5vh;
-}
-.photo5-photo6-container{
-    display: flex;
-    flex-direction: row;
-    gap:3vw;
-}
-.page__footer{
-    font-size:0.8rem;
+  .page {
+    gap: 2vh;
+  }
+  .person__photo {
+    width: 25vw;
+  }
+  .photo1 {
+    width: 30vw;
+    height: 15vh;
+  }
+  .photo2 {
+    width: 61vw;
+    height: 15vh;
+  }
+  .photo3 {
+    width: 61vw;
+    height: 15vh;
+  }
+  .photo6,
+  .photo5 {
+    width: 29vw;
+    height: 15vh;
+  }
+  .sub-element-two {
+    width: 30vw;
+    height: 31.5vh;
+  }
+  .person__name {
+    font-size: 0.8rem;
     line-height: 1rem;
-    margin-top:5rem;
-}
+  }
+  .person__posts,
+  .person__followers,
+  .person__following {
+    width: 15vw;
 
-
+    padding: 0.8rem 0.8rem;
+  }
+  .number {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .person__location {
+    font-size: 0.6rem;
+    line-height: 0.75rem;
+  }
+  .page__stats {
+    gap: 3vw;
+  }
+  .page__profile {
+    gap: 1.1vh;
+  }
+  .page__images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    margin-top: 1.5rem;
+  }
+  .row-container-one {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }
+  .row-container-two {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }
+  .sub-element-one {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+  }
+  .photo5-photo6-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }
+  .page__footer {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-top: 5rem;
+  }
 }
