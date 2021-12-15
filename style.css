@@ -3,7 +3,14 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
+
+}
+:root{
+    --primary-color:#4E5150;
+    --secondary-color:#A9A9A9;
+   --tertiary-color:#BDBDBD;
+
+
 }
 /** images size **/
 .person__photo{
@@ -50,6 +57,39 @@ body{
 .page__profile{
     display:flex;
     flex-direction: column;
+}
+.person__name{
+    font-family: Montserrat;
+    font-weight:600;
+    font-size:1.5rem;
+    line-height:1.8rem;
+    color:var(--primary-color);
+
+}
+.number{
+    font-family: Montserrat;
+    font-weight:600;
+    font-size:1.1rem;
+    line-height:1.3rem;
+    color:var(--primary-color);
+    
+}
+.text{
+    font-family: Montserrat;
+    font-weight:600;
+    font-size:0.8rem;
+    line-height:1rem;
+    color:var(--tertiary-color);
+
+}
+.person__location{
+    font-family: Montserrat;
+    font-weight:600;
+    font-size:0.8rem;
+    line-height:1rem;
+    color:var(--secondary-color);
+
+
 }
 
 .page__stats{
