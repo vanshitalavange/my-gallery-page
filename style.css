@@ -1,12 +1,49 @@
+
 body{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+/** images size **/
+.person__photo{
+   
+    width:10vw;
+    border-radius: 1rem;
+}
+.photo1{
+    width:13vw;
+    height:30vh;
+    border-radius: 12px;
+}
+.photo2{
+    width:30vw;
+    height:30vh;
+    border-radius: 12px;
+
+}
+.photo3{
+    width:30vw;
+    height:30vh;
+    border-radius: 12px;
+}
+.photo6,.photo5{
+    width:13vw;
+    height:30vh;
+    border-radius: 12px;
+
+}
+.sub-element-two{
+    width:13vw;
+    border-radius: 12px;
+    height:60vh;
+}
 
 .page{
+    margin-top:2rem;
     display:flex;
     flex-direction: column;
+    /* width:62vw; */
+    align-items: center;
 }
 
 .page__profile{
