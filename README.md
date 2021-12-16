@@ -36,9 +36,12 @@
 
 ## Overview
 - Desktop view
-![screenshot](images/gallery-desktop.png)
+
+  ![screenshot](images/gallery-desktop.png)
+
 - Mobile view
-![screenshot](images/gallery-mobile.png)
+
+  ![screenshot](images/gallery-mobile.png)
 
 
 
